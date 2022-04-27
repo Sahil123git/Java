@@ -7,11 +7,12 @@ public class ArrayListEg {
         str.add("hello");
         str.add("world");
 
+        System.out.println(str.get(1));// to get the ele at this index(ind as argument)
         System.out.println(str);
 
         ListIterator lt = str.listIterator();
         while (lt.hasNext()) {
-            System.out.println(lt.next());
+        System.out.println(lt.next());
         }
 
         List ad = new ArrayList();
