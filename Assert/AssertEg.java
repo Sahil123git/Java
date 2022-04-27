@@ -3,7 +3,8 @@ public class AssertEg {
         int x = getPositiveInt(7);
         int y = getPositiveInt(2);
         assert (x > 0);
-        assert (y > 0);
+        assert (y > 0);// can use this or below
+        // assert (y > 0) : "Y should be greater"; //now error will be this string
         int total = x + y;
         System.out.println("total = " + total);
     }
