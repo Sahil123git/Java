@@ -5,14 +5,14 @@ public class ArrayListEg {
         ArrayList<String> str = new ArrayList<String>();// now it can have obj of type stirng only
         str.add("hii");
         str.add("hello");
-        str.add("world");
+        System.out.println(str.add("world"));// return true if inserted otherwise false
 
         System.out.println(str.get(1));// to get the ele at this index(ind as argument)
         System.out.println(str);
 
         ListIterator lt = str.listIterator();
         while (lt.hasNext()) {
-        System.out.println(lt.next());
+            System.out.println(lt.next());
         }
 
         List ad = new ArrayList();
