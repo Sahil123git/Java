@@ -42,9 +42,10 @@ class RunnableThread {
         MyThread t3 = new MyThread("Three");
         t3.start();
 
-        new Thread(new MyThread2()).start();// for 2nd mthd Runnable Thread
-        // MyThread2 myt = new Mythread();
+        // new Thread(new MyThread2()).start();// for 2nd mthd Runnable Thread
+        // MyThread2 myt = new MyThread2();
         // Thread t4 = new Thread(myt);//another method for Runnable interface
+        // t4.start(); //and then this to start thread
 
         System.out.println("t1 is alive ? " + t1.isAlive());
         try {
